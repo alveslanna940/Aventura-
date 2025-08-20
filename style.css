@@ -1,7 +1,7 @@
 body {
-    background-color: seagreen;
-    color: antiquewhite;
-   font-family: "Playfair Display", serif;
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,9 +10,9 @@ body {
 }
 
 button {
-background-color: seagreen;
-color: antiquewhite;
-   font-family: "Playfair Display", serif;
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
 .passo {
@@ -20,5 +20,14 @@ color: antiquewhite;
 }
 
 .passo.ativo {
-    display: block;
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
 }
